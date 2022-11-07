@@ -30,7 +30,7 @@ function calculadoraMP(){
         precioVenta += ((precioVenta * impuestoValorAgregado) / 100);
         precioVenta += ((precioVenta * ivaProductosNuevos) / 100);
         precioVenta += ((precioVenta * ibb) / 100);
-
+        
         uno = ((precioVenta * porcentajeClasica) / 100); //clasica
         dos = ((precioVenta * 2) / 100); //impuesto
         tres = ((precioVenta * 11) / 100); //impuesto2
