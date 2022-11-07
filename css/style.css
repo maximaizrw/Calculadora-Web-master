@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  font-family: "Montserrat", sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  background-color: #1d2329;
+}
+
+body .divider {
+  width: 100%;
+  height: 1px;
+  background: #ffffff;
+  margin: 15px 0px 20px;
+}
+
+section {
+  padding: 5rem 1rem;
+}
+
+.header .navbar-color {
+  background-color: #252b33;
+}
+
+.header .nav-link {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.header .nav-link:hover {
+  color: #fd6950;
+  text-shadow: 2px 4px 10px #fd6950;
+}
+
+.header .navbar-brand {
+  color: #fd6950;
+  font-weight: 800;
+  font-size: 1.50rem;
+}
+
+.header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.header .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.calculadora .titulo h3 {
+  color: #fd6950;
+  font-weight: 600;
+  text-align: center;
+}
+
+.calculadora .titulo p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.calculadora .box {
+  -webkit-box-shadow: 0 8px 16px 0 black;
+          box-shadow: 0 8px 16px 0 black;
+  background-color: #282e37;
+  width: 100%;
+  border-radius: 6px;
+  padding: 20px 15px;
+  max-width: 400px;
+}
+
+.calculadora .box h6 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.calculadora .box .input h5 {
+  font-weight: 600;
+  color: #fd6950;
+  margin-right: 5px;
+}
+
+.calculadora .box .input input {
+  background-color: transparent;
+  outline: none;
+  border-width: 1px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-color: #fd6950;
+  color: #ffffff;
+}
+
+.calculadora .box .input .divider {
+  width: 100%;
+  height: 1px;
+  background: #ffffff;
+  margin: 15px 0px 20px;
+}
+
+.calculadora .box .resultados {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.amigo {
+  padding-top: 2rem;
+}
+
+.amigo .titulo-fondo::after {
+  content: '';
+  background-image: url(../assets/game-friends.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.amigo .titulo-fondo {
+  position: relative;
+  padding: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.amigo .titulo-fondo h3 {
+  color: #fd6950;
+  font-weight: 600;
+  text-align: center;
+}
+
+.amigo .titulo-fondo p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.amigo .accordion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.amigo .accordion .accordion-item {
+  width: 85%;
+  background-color: #282e37;
+}
+
+.amigo .accordion .accordion-button {
+  color: #ffffff;
+  background-color: #fd6950;
+}
+
+.amigo .accordion .accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #fd6950;
+}
+
+footer {
+  background-color: #252b33;
+  color: aliceblue;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+footer a:hover {
+  color: #fd6950;
+  text-shadow: 2px 4px 10px #fd6950;
+}
+
+footer p {
+  font-size: .8rem;
+}
+/*# sourceMappingURL=style.css.map */

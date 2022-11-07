@@ -1,0 +1,53 @@
+
+
+.amigo {
+    padding-top: 2rem;
+    .titulo-fondo::after{
+        content:'';
+        background-image: url(../assets/game-friends.jfif) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        width:100%;
+        height:80%;
+        z-index:-1;
+        opacity: 0.3;
+    }
+
+    .titulo-fondo{
+        position: relative;
+        padding:50px;
+        font-weight:bold;
+        text-align:center;
+        @include titulo;
+    }
+
+    .accordion{
+        display: flex;
+        justify-content: center;
+
+        .accordion-item{
+            width: 85%;
+            background-color: $chardev2;
+
+    }
+    .accordion-button{
+        color: $white;
+        background-color: $persimmon; 
+    }
+
+    .accordion-button:not(.collapsed){
+        color: $white;
+        background-color: $persimmon;
+    }
+}
+
+  
+}
+
+
+
+

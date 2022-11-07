@@ -1,0 +1,17 @@
+footer{
+    background-color: $charde;
+    color: aliceblue;
+    a{
+        text-decoration: none;
+        color: $white;
+        font-size: 2rem;
+        
+        &:hover{
+            color: $persimmon;
+            text-shadow: 2px 4px 10px $persimmon;
+        }
+    }
+    p{
+        font-size: .8rem;
+    }
+}

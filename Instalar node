@@ -1,0 +1,8 @@
+npm init
+npm install -D node-sass nodemon
+
+Edita el package.json e inserta los lineas.
+"build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+Compila con npm: run watch-css.
