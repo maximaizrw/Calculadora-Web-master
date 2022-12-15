@@ -59,7 +59,7 @@
                         <h6>Precio del juego</h6>
                         <div class="input d-flex">
                             <h5>$</h5>
-                            <input type="number" onkeyup="calculadoraMP(); calculadoraT(); calculadoraML()" id="precioSteam"
+                            <input type="number" onkeyup="calculadoraMP(); calculadoraT(); calculadoraML()" id="precioOriginal"
                                 placeholder="Inserte precio del juego" value="0" />
                         </div>
                         <div class="divider"></div>
@@ -74,6 +74,7 @@
                                 <p> MercadoLibre: <span id="resultadoML"> </span></p>
                             </div>
                         </div>
+                        <button onclick="copyResult(resultadoT, resultadoMP)">Copiar</button>
                     </div>
                 </div>
             </div>
@@ -144,6 +145,7 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <!-- Fin Bootsrap 5-->
+    <script src="./js/calculos.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
