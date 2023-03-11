@@ -4,7 +4,7 @@ const UNIDAD = 120; //Precio al vender UNIDAD.
 const PORCENTAJE_CLASICA_MP = 2;
 const PORCENTAJE_CLASICA_ML = 11;
 const PORCENTAJE_GANANCIA_ESPERADA = 25;
-const PORCENTAJE_IMPUESTO_DOLAR = 100;
+const PORCENTAJE_IMPUESTO_DOLAR = 115;
 
 function calculadoraMP() {
     let precioOriginal = parseInt(document.getElementById('precioOriginal').value);
