@@ -3,7 +3,7 @@ const IBB = 3;
 const UNIDAD = 150; //Precio al vender UNIDAD.
 const PORCENTAJE_CLASICA_MP = 0.08;
 const PORCENTAJE_CLASICA_ML = 0.13;
-const PORCENTAJE_GANANCIA_ESPERADA = 0.25;
+const PORCENTAJE_GANANCIA_ESPERADA = 0.20;
 const PORCENTAJE_IMPUESTO_DOLAR = 0.99;
 
 function calculadoraMP() {
