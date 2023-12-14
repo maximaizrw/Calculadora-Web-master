@@ -1,10 +1,10 @@
 //Definicion de constantes:
-const IBB = 3;
+const IBB = 1;
 const UNIDAD = 300; //Precio al vender UNIDAD.
 const PORCENTAJE_CLASICA_MP = 0.08;
 const PORCENTAJE_CLASICA_ML = 0.13;
 const PORCENTAJE_GANANCIA_ESPERADA = 0.20;
-const PORCENTAJE_IMPUESTO_DOLAR = 0.99;
+const PORCENTAJE_IMPUESTO_DOLAR = 0.60;
 
 function calculadoraMP() {
 
